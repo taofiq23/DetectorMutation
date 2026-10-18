@@ -1,0 +1,130 @@
+{
+  "n_seed_payloads": 288,
+  "n_normal_requests_used": 2000,
+  "baseline_detection_rate": {
+    "libinjection": 0.5451388888888888,
+    "keyword_regex": 1.0,
+    "char_ngram": 0.9618055555555556
+  },
+  "mutants_generated_per_operator": {
+    "case_random": 278,
+    "comment_whitespace": 288,
+    "split_keyword": 273,
+    "extra_whitespace": 288,
+    "equivalent_tautology": 15
+  },
+  "evasion_rate_by_detector_and_operator": {
+    "libinjection": {
+      "case_random": {
+        "n_mutants_from_detected_originals": 157,
+        "n_mutants_total": 278,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "comment_whitespace": {
+        "n_mutants_from_detected_originals": 157,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "split_keyword": {
+        "n_mutants_from_detected_originals": 157,
+        "n_mutants_total": 273,
+        "evasion_rate": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0
+      },
+      "extra_whitespace": {
+        "n_mutants_from_detected_originals": 157,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "equivalent_tautology": {
+        "n_mutants_from_detected_originals": 0,
+        "n_mutants_total": 15,
+        "evasion_rate": null,
+        "ci_lo": null,
+        "ci_hi": null
+      }
+    },
+    "keyword_regex": {
+      "case_random": {
+        "n_mutants_from_detected_originals": 278,
+        "n_mutants_total": 278,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "comment_whitespace": {
+        "n_mutants_from_detected_originals": 288,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.14930555555555555,
+        "ci_lo": 0.1076388888888889,
+        "ci_hi": 0.1909722222222222
+      },
+      "split_keyword": {
+        "n_mutants_from_detected_originals": 273,
+        "n_mutants_total": 273,
+        "evasion_rate": 0.4249084249084249,
+        "ci_lo": 0.3663003663003663,
+        "ci_hi": 0.4835164835164835
+      },
+      "extra_whitespace": {
+        "n_mutants_from_detected_originals": 288,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "equivalent_tautology": {
+        "n_mutants_from_detected_originals": 15,
+        "n_mutants_total": 15,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      }
+    },
+    "char_ngram": {
+      "case_random": {
+        "n_mutants_from_detected_originals": 267,
+        "n_mutants_total": 278,
+        "evasion_rate": 0.003745318352059925,
+        "ci_lo": 0.0,
+        "ci_hi": 0.011235955056179775
+      },
+      "comment_whitespace": {
+        "n_mutants_from_detected_originals": 277,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "split_keyword": {
+        "n_mutants_from_detected_originals": 262,
+        "n_mutants_total": 273,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "extra_whitespace": {
+        "n_mutants_from_detected_originals": 277,
+        "n_mutants_total": 288,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "equivalent_tautology": {
+        "n_mutants_from_detected_originals": 15,
+        "n_mutants_total": 15,
+        "evasion_rate": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      }
+    }
+  },
+  "elapsed_seconds": 3.1
+}
